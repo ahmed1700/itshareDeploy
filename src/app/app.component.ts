@@ -4,12 +4,12 @@ import { Component, ViewEncapsulation } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  encapsulation : ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
-  title  = 'Parent Compoment'
-constructor(){
-  
-}
+  title = 'Parent Compoment'
+  constructor() {
+
+  }
 
 }
